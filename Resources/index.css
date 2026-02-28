@@ -1,0 +1,25 @@
+#index-body {
+  background-image: url("indexbackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#index-header{display:inline-block}
+#topnav {
+  display: flex;
+  align-items: center;  /* aligns logo + links vertically */
+  gap: 15%;            /* spacing between items */
+  font-size:medium;
+}
+#topnav a {
+  color: black;
+  text-decoration: none;
+}
+
+#topnav a:visited {
+  color: black;
+}
+
+#topnav a:hover {
+  color: gray;
+}

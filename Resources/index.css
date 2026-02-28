@@ -1,25 +1,52 @@
-#index-body {
-  background-image: url("indexbackground.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+body{font-family:Arial, Helvetica, sans-serif;}
+.intro{
+    background-image: url("indexbackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    aspect-ratio: 16 / 9; 
+    width: 100%;
+    margin-top: -10px;
+    text-align: center;
+    margin-bottom: -190px;
 }
-#index-header{display:inline-block}
-#topnav {
+#h1-index{padding-top:5%}
+.header{display:inline-block}
+.topnav {
   display: flex;
-  align-items: center;  /* aligns logo + links vertically */
-  gap: 15%;            /* spacing between items */
-  font-size:medium;
+  align-items: center;
+  gap: 15%;
+  padding-left: 60px;
+  font-size: x-large;
 }
-#topnav a {
+.topnav a {
   color: black;
   text-decoration: none;
 }
 
-#topnav a:visited {
+.topnav a:visited {
   color: black;
 }
 
-#topnav a:hover {
+.topnav a:hover {
   color: gray;
 }
+.footer{
+  background-color: rgba(58, 64, 68, 0.829);
+  color:rgb(255, 255, 255);
+}
+#contact-us{padding:10px;}
+#event-intro{
+    background-image: url("events.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    aspect-ratio: 16 / 9; 
+    width: 100%;
+    margin-top: -60px;
+    font-size:60px;
+}
+.event-intro{
+  padding-top:100px;
+  text-align: center;}
+.biblestudy, .sundayservice,.foodpantry, .breakfast {margin: 20px; padding:10px; background-color: gray;}

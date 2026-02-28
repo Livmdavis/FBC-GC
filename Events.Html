@@ -5,28 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="First Baptist Church" content="width=device-width, initial-scale=1.0">
     <title>First Baptist Church Events</title>  
+    <link href="Resources/index.css" rel="stylesheet"/>  
     </head> 
-<body>
-     <header>
-  <img src="Logo First Baptist church.png" alt="logo for the First Baptist Church" width="100" height="100">
-  <div class="topnav">
-    <a class="active" href="Index.html">Home</a>
-    <a href="Events.html">Events</a>
-    <a href="contact.html">Contact</a>
-    <a href="#about">About</a>
-  </header>
-    <section>
-    <h1>Events</h1>
-    <p>Welcome to the Events page of First Baptist Church of Golden City. Here you will find information about our upcoming events and activities.</p>
+<body >
+     <header class="header">
+      <nav>
+      <div class="topnav">
+        <img class="logo" src="Resources/fbcnamelogo.png" alt="logo for the First Baptist Church" height="100">
+        <a href="Index.html" id="nav-home">Home</a>
+        <a href="Events.html" id="nav-events">Events</a>
+        <a href="contact.html" id="contact">Contact</a>
+        <a href="#about" id="about">About</a>
+        </div>
+      </nav>
+    </header>
+    <section id="event-intro">
+        <h1 class="event-intro"> Together We Have Faith</h1>
+        <h2 class="event-intro">Join us in worship</h2>
     </section>
     <section>
         <h2>Upcoming Events</h2>
-        <ul>
-            <li><strong>Sunday Service:</strong> Every Sunday at 11:00 AM</li>
-            <li><strong>Wednesday Bible Study:</strong> Every Wednesday at 6:00 PM</li>
-            <li><strong>Food Pantry:</strong>Open 10AM-12:30PM</li>
-            <li><strong>Men's Breakfast:</strong> Saturday February 28th at 8:00 AM</li>
-        </ul>
+        <div id="events">
+            <p class="sundayservice"><strong>Sunday Service:</strong> Every Sunday at 11:00 AM</p>
+            <p class="biblestudy"><strong>Wednesday Bible Study:</strong> Every Wednesday at 6:00 PM</p>
+            <p class="foodpantry"><strong>Food Pantry:</strong>Open 10AM-12:30PM</p>
+            <p class="breakfast"><strong>Men's Breakfast:</strong> Saturday February 28th at 8:00 AM</p>
+        </div>
     </section>
+     <footer class="footer">
+      <div id="contact-us">
+        <h2>Contact Us</h2>
+        <p><stong>Phone Number:</stong> (417)359-4162</p>
+        <p><stong>Email:</stong> fbc@fbcgoldencity.org</p>
+        <p><stong>Mail:</stong> 702 B Street, Golden City, MO, United State, 64748</p>
+      </div>
+    </footer>
 </body>
 </html>
